@@ -1,0 +1,17 @@
+Source: python-swftools
+Section: python
+Priority: extra
+Maintainer: Anton Volozhanin <zzzombat@gmail.com>
+Uploaders: Anton Volozhanin <zzzombat@gmail.com>
+Build-Depends:
+  debhelper (>= 7),
+  python-support,
+  python,
+  python-all-dev (>= 2.5),
+  python-setuptools
+Standards-Version: 3.8.4
+
+Package: python-swftools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-imaging
+Description: Swftools python binding.
