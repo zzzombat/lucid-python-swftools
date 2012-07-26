@@ -8,7 +8,12 @@ Build-Depends:
   python-support,
   python,
   python-all-dev (>= 2.5),
-  python-setuptools
+  python-setuptools,
+  quilt,
+  zlib1g-dev,
+  libjpeg-dev,
+  libgif-dev, 
+  libfreetype6-dev
 Standards-Version: 3.8.4
 
 Package: python-swftools
